@@ -6,6 +6,9 @@ body {
     letter-spacing: 2px;
     
   }
+  .profiledata{
+    padding: 20px;
+}
   .profile-name{
     color: gray;
       font-family: sans-serif;
