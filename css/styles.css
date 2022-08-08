@@ -6,3 +6,16 @@ body {
     letter-spacing: 2px;
     
   }
+  .profile-name{
+    color: gray;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 20px;
+     
+  }
+  .profile-name2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
