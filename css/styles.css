@@ -47,3 +47,64 @@ body {
   margin-right: auto;
   width: 20%;
 }
+.links-github{
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border:  solid white;
+  border-width: 0.5px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.links-github:hover{
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background: #2B3035;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  font-size: 15px;
+  color: white;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.button span {
+  margin-left: 5px;
+}
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+.section {
+  /* width: fit-content;
+  margin: auto; */
+  margin-left: 40vw;
+}
+.spacer {
+  display: inline-block;
+  height: 20px;
+}
