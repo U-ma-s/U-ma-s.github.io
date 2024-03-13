@@ -47,6 +47,16 @@ margin-left: auto;
 margin-right: auto;
 width: 10%;
 }
+.links-header {
+  box-sizing: border-box;  /* ボックスのサイズ計算方法を変更 */
+  padding: 10px;  /* パディングを追加 */
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-top: double white;  /* 二重の横線を追加 */
+}
 .links-github{
 text-align: center;
 margin-top: 20px;
@@ -63,10 +73,7 @@ font-size: 15px;
 
 .links-github:hover{
 text-align: center;
-margin-top: 20px;
-padding: 20px;
 background: #2B3035;
-width: 250px;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -75,8 +82,36 @@ font-size: 15px;
 color: white;
 }
 .links-github img {
-  width: 20%;
+  width: 22%;
+  height: 4%;
 }
+.links-zenn{
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  font-size: 15px;
+  }
+  
+  .links-zenn:hover{
+  text-align: center;
+  background: #2B3035;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: white;
+  }
+  .links-zenn img {
+    width: 25%;
+    height: 4%;
+    border-radius: 0;
+  }
 .button {
 display: inline-flex;
 align-items: center;
